@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Node
+metadata:
+  name: demo-node
+spec:
+  taints:
+  - key: k1
+    value: v1
+    effect: "NoSchedule"

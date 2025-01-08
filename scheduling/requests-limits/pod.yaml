@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  namespace: demo-ns
+  name: demo-pod
+spec:
+  containers:
+  - name: demo-container
+    image: nginx:alpine-slim
+    resources:
+      requests:
+        cpu: 2
+        memory: 1Gi
+      limits:
+        cpu: 2
+        memory: 1Gi

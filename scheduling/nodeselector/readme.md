@@ -1,0 +1,1 @@
+It must be scheduled to the node where the Pod with the label `k1=v1` is located.

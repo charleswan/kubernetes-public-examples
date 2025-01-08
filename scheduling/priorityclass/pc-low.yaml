@@ -1,0 +1,7 @@
+# Create a priorityClass named "low" with a score of 1000.
+apiVersion: scheduling.k8s.io/v1
+kind: PriorityClass
+metadata:
+  name: low
+value: 100
+globalDefault: false
